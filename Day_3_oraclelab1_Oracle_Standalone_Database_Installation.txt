@@ -121,15 +121,33 @@ Static & DHCP - IP
 
 #***************************************************************
 /u01/app/oraInventory/orainstRoot.sh
+
+output: 
+
+[root@oraclelab1 dbhome_1]# /u01/app/oraInventory/orainstRoot.sh
+Changing permissions of /u01/app/oraInventory.
+Adding read,write permissions for group.
+Removing read,write,execute permissions for world.
+#***************************************************************
 /u01/app/oracle/product/19.0.0.0/dbhome_1/root.sh
+
+output: 
+
+[root@oraclelab1 dbhome_1]# /u01/app/oracle/product/19.0.0.0/dbhome_1/root.sh
+Performing root user operation.
+
+The following environment variables are set as:
+    ORACLE_OWNER= oracle
+    ORACLE_HOME=  /u01/app/oracle/product/19.0.0.0/dbhome_1
+
+Enter the full pathname of the local bin directory: [/usr/local/bin]:
+
 #***************************************************************
 
 3. Creation of Database (DEVDB)
 		- Create Database 
 		- $ cd /u01/app/oracle/product/19.0.0.0/dbhome_1/bin
 		- $ ./dbca
-
-
 
 1. Tool to install Oracle software / OH / DB software 
 	- /u01/app/oracle/product/19.0.0.0/dbhome_1/runInstaller 
@@ -824,6 +842,7 @@ Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
 Version 19.3.0.0.0
 
 SQL>
+
 
 
 

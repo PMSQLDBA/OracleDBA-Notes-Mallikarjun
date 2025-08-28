@@ -118,6 +118,12 @@ Static & DHCP - IP
 			$ cd /u01/app/oracle/product/19.0.0.0/dbhome_1
 			$ ./runInstaller 
 
+
+#***************************************************************
+/u01/app/oraInventory/orainstRoot.sh
+/u01/app/oracle/product/19.0.0.0/dbhome_1/root.sh
+#***************************************************************
+
 3. Creation of Database (DEVDB)
 		- Create Database 
 		- $ cd /u01/app/oracle/product/19.0.0.0/dbhome_1/bin
@@ -818,6 +824,7 @@ Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
 Version 19.3.0.0.0
 
 SQL>
+
 
 
 
